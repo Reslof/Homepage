@@ -1,0 +1,94 @@
+html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: "Press Start 2P", cursive;
+	background: #000000 url("images/samus.jpg") no-repeat top;
+}
+
+#links {
+	text-align: center;
+	display: block;
+	margin: auto;
+}
+
+#content #links ul {
+	padding: 0;
+	margin: 0;
+}
+
+#content #links li {
+	margin: 5px 5px;
+	display: inline-block;
+}
+#content #links ul a {
+	display: inline-block;
+	color: #00E51C;
+	text-decoration: none;
+	font-size: 14px;
+	padding: 10px 10px;
+	-webkit-transition: all 0.5s;
+}
+
+#content #links ul a:hover {
+	color: #FFFFFF;
+    background: #000000;
+}
+
+#weather {
+  padding: 50px 0 20px;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  margin: auto;
+}
+
+#weather h2 {
+  margin: 0 0 8px;
+  color: #fff;
+  font-size: 50px;
+  font-weight: 200;
+  text-align: center;
+}
+
+#weather ul {
+  margin: 0;
+  padding: 0;
+}
+
+#weather li {
+	display: inline-block;
+	width: 150px;
+	color: #00E51C;
+	text-decoration: none;
+	font-size: 14px;
+	padding: 10px 0;
+	outline: none;
+	-webkit-transition: all 0.5s;
+}
+#weather p {
+	display: inline-block;
+	margin: 10px auto;
+	color: #00E51C;
+	width: 100px;
+	font-size: 12px;
+	padding: 3px;
+  	text-align: center;
+	-webkit-transition: all 0.5s;
+}
+#weather li:hover {
+	color: #FFFFFF;
+}
+#weather p:hover {
+	color: #FFFFFF;
+}
+#weather .currently {
+  margin: 0 20px;
+}
